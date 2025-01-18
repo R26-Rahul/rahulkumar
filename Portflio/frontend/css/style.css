@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: black;
+    color: var(--text-color);
+}
+:root{
+    --border-color:rgb(39, 39, 42);
+    --text-color:white;
+}
+body{
+    padding: 25px;
+}
+.main{
+    width: 100%;
+    height:88vh;
+    display: flex;
+    overflow: hidden;
+}
+.main .userprofile{
+    width:35%;
+    height: 100%;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+}
+.main .userprofile .profile{
+    width: 100%;
+    padding: 30px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-color);
+}
+.main .userprofile .profile .photo{
+    width: 100px;
+    height: 100px;
+    margin: 20px 0px;
+    border: 1px solid var(--border-color);
+
+}
+.main .userprofile .profile-card-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border-radius: 8px;
+    flex-direction: column;
+    justify-content:end;
+    row-gap: 8px;
+    padding: 8px;
+}
+
+.main .userprofile .card-prfile{
+    padding: 8px;
+    text-align: center;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+}
+
+.content-area {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: 2px solid var(--border-color);
+
+}
+.content-area .top-box{
+    border-radius: 8px 8px 0 0;
+}
+.content-area .top-box .profile-box{
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+}
+.content-area .top-box .title-tags{
+    height: 50px;
+    background: var(--border-color);
+}
+.content-area .scroll-ariea{
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+.content-area .scrol-box{
+    width: 100%;
+    padding: 10px;
+    background: palevioletred;
+    margin-bottom: 5px;
+}
