@@ -36,6 +36,8 @@ body {
     background: var(--bg-color);
     color: var(--text-color);
     scroll-margin: 20px;
+    overflow-x: hidden;
+    max-width: 100vw;
 
     .header {
         position: fixed;
@@ -117,6 +119,7 @@ body {
 
 section {
     min-height: 100vh;
+    
     padding: 10rem 7% 2rem;
 }
 
@@ -677,6 +680,7 @@ section {
 
 
 @media (max-width:768px) {
+    
     .home{
         flex-direction: column;
     }
