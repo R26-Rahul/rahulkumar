@@ -92,7 +92,6 @@ form.addEventListener('submit', e => {
   fetch(scriptURL, { method: 'POST', body: new FormData(form) })
     .then(response => Swal.fire({
       title: "Thank you for contacting us !",
-      text: "You clicked the button!",
       icon: "success"
     })).then(()=>{
       location.reload();
