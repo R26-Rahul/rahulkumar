@@ -10,6 +10,8 @@
         content="Portfolio of Rahul Kumar - Front-End Developer skilled in HTML, CSS, Tailwind, and JavaScript.">
     <meta name="keywords" content="Rahul Kumar, Portfolio, Web Developer, HTML, CSS, JavaScript, Front-End">
     <meta name="author" content="Rahul Kumar">
+    <!--sweets alert   -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.22.2/dist/sweetalert2.min.css" />
     <!-- swaper css  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <!-- custom css  -->
@@ -17,7 +19,7 @@
     <!-- boxicon CDN  -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- custom js -->
-     <link rel="icon" href="./image/rahulRai.png" type="image/x-icon">
+    <link rel="icon" href="./image/rahulRai.png" type="image/x-icon">
 </head>
 
 <body>
@@ -39,16 +41,16 @@
             <!-- dinamic design here  -->
             <h3> Hello,<span> I am </span></h3>
             <h1>Rahul Kumar Rai</h1>
-            <p>a passionate web developer skilled in <span>front-end and back-end technologies</span> . I love building responsive and interactive websites and web apps that solve real-world problems. </p>
-
+            <p>a passionate web developer skilled in <span>front-end and back-end technologies</span> . I love building
+                responsive and interactive websites and web apps that solve real-world problems. </p>
             <div class="socialmedia">
                 <a href="https://www.facebook.com/techhindirai"><i class='bx bxl-facebook'></i></a>
-                <a href="#"><i class='bx bxl-blogger'></i></a>
+                <a href="https://techhindirai.blogspot.com/"><i class='bx bxl-blogger'></i></a>
                 <a href="https://www.instagram.com/techhindirai"><i class='bx bxl-instagram'></i></a>
                 <a href="https://t.me/s/techhindirai"><i class='bx bxl-telegram'></i></a>
                 <a href="https://www.youtube.com/c/TechHindiRai"><i class='bx bxl-youtube'></i></a>
             </div>
-            <a href="https://github.com/R26-Rahul" class="btn">Github <i class='bx bxl-github'></i></a>
+            <a href="https://github.com/R26-Rahul" class="btn">Github<i class='bx bxl-github'></i></a>
         </div>
         <div class="home-contanair">
             <div class="home-img">
@@ -60,7 +62,7 @@
                 </p>
                 <div class="newTr">
                     <div class="newTr2"></div>
-                    <img src="image/rahulhome.png" />
+                    <img src="image/rahulhome.png" alt="Rahul Kumar Rai" />
                 </div>
             </div>
         </div>
@@ -70,7 +72,7 @@
     <section class="about" id="about">
         <div class="about">
             <div class="about-img">
-                <img src="image/rahulhome.png" />
+                <img src="image/rahulhome.png" alt="Rahul Kumar Rai" />
             </div>
         </div>
         <div class="about-contant">
@@ -139,7 +141,7 @@
                 <div class="portflio-layer">
                     <h4>Web Design</h4>
                     <p>
-                        coddingOTT Clone site 
+                        coddingOTT Clone site
                     </p>
                     <a href="https://github.com/R26-Rahul" class="bx bx-link-external "></a>
                 </div>
@@ -165,7 +167,7 @@
                 </div>
             </div>
             <div class="portflio-box">
-                <img src="image/Backend.png" alt="" />
+                <img src="image/Backend.png" alt="Nodejs" />
                 <div class="portflio-layer">
                     <h4>Backend</h4>
                     <p>
@@ -179,7 +181,7 @@
                 <div class="portflio-layer">
                     <h4>React Project</h4>
                     <p>
-                        Portfolio Page 
+                        Portfolio Page
                     </p>
                     <a href="https://github.com/R26-Rahul" class="bx bx-link-external "></a>
                 </div>
@@ -189,7 +191,7 @@
                 <div class="portflio-layer">
                     <h4>Hardwar and Network</h4>
                     <p>
-                         
+
                     </p>
                     <a href="https://github.com/R26-Rahul" class="bx bx-link-external"></a>
                 </div>
@@ -255,36 +257,36 @@
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me !</span></h2>
 
-        <form action="#">
+        <!--  form start here  -->
+        <form id="formDB">
             <div class="input-box">
-                <input type="text" placeholder="Full Name" />
-                <input type="email" placeholder="Email" />
+                <input type="text" id="fullName" name="data.[NAME]" placeholder="Full Name" />
+                <input type="email" name="data.[EMAIL]" placeholder="Email" />
             </div>
             <div class="input-box">
-                <input type="number" placeholder="Mobile number" />
-                <input type="text" placeholder="Email Subjects" />
+                <input type="number" name="data.[MOBILE]" placeholder="Mobile number" />
+                <input type="text" name="data.[SUBJECT]" placeholder="Requirement " />
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
-            <input type="submit" value="Send Message" class="btn">
+            <textarea name="data.[MESSAGE]" cols="30" rows="10" placeholder="Your message"></textarea>
+            <input type="submit" value="Send Message" class="btn" />
         </form>
     </section>
 
     <!-- footer section design -->
     <footer class="footer">
         <div class="footer-text">
-            <p>Copyright &copy; 2025 by Rahul | All Rights Reserved.</p>
+            <p>Copyright &copy; 2025 by Rahul Kumar | All Rights Reserved.</p>
         </div>
         <div class="footer-iconTop">
             <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
         </div>
     </footer>
 
-
-
-
     <!-- swaper script link -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- javascript link  -->
+     <!-- sweets alert -->
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.22.2/dist/sweetalert2.all.min.js"></script>
     <script src="index.js"></script>
 
 </body>
